@@ -29,15 +29,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+	map() returns a new array
 2. What is the difference between a function and a method?
-
+a method is a function that lives in a class so that it can be called by an object of type class
 3. What is closure?
-
+a function that retains the context of variables even outside of it so that it can reference them in the future even if the outter function leaves scope. In a phrase, a function in a function.
 4. Describe the four rules of the 'this' keyword.
-
+is the function that this is inside of called by new (so that it's a function obj created in memory rather then the stack
+is the function called by eval call apply or bind (or anything that uses those)
+is the function called as a method 
+is the function called in global scope
+ if so returns undefined in script mode and window otherwise.
 5. Why do we need super() in an extended class?
-
+to reference the parent class. I used it when extending cube so I could create a cuboid with equal sides;
 ## Project Set up
 
 Follow these steps to set up and work on your project:
